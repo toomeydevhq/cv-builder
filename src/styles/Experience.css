@@ -1,0 +1,73 @@
+.date-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.date-fields .form-group {
+  flex: 1;
+}
+
+.added-items {
+  margin-top: 30px;
+}
+
+.added-items h3 {
+  margin-bottom: 15px;
+  color: var(--purple-dark);
+}
+
+.experience-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-left: 4px solid var(--purple-light);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.experience-header h4 {
+  color: var(--purple-dark);
+}
+
+.experience-header span {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.position {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.description {
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+
+.btn-small {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+.experience-display {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .date-fields {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

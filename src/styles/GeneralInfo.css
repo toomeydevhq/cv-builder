@@ -1,0 +1,28 @@
+.info-display {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-label {
+  font-weight: 600;
+  min-width: 120px;
+  color: var(--purple-dark);
+}
+
+@media (max-width: 480px) {
+  .info-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .info-label {
+    min-width: auto;
+  }
+}
